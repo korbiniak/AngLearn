@@ -16,6 +16,9 @@ class File {
 	vector<int> count;
 	vector<string> frazes;
 	int frazesCounter;
+	void polski();
+	void angielski();
+	void mieszany();
 
 	public:
 	File();

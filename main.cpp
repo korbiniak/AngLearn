@@ -5,8 +5,8 @@
 #include<vector>
 #include"file.h"
 
-int main(int argv, char * argc[]) {
-	File file(argc[1]);
+int main(int argc, char * argv[]) {
+	File file(argv[1]);
 	file.uploadFrazes();
 	file.go();
 }
